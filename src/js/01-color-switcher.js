@@ -13,6 +13,7 @@ function onClickStart() {
   refs.startBtn.disabled = true;
   refs.stopBtn.disabled = false;
 }
+
 function onClickStop() {
   clearTimeout(timerId);
   refs.startBtn.disabled = false;
